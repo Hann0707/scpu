@@ -5,6 +5,7 @@ uint8_t PC = 0;
 uint8_t R[4];
 uint8_t M[256];
 int jump_pc = 0;
+
 void inst_cycle (){
     
     uint8_t addr = 0b0000;
